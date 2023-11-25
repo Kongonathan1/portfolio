@@ -173,15 +173,17 @@ img {
 }
 .skill-card {
     padding: 12px;
-    border-radius: 5px;
     margin-top: 25px;
+    margin-bottom: 8px;
     background-color: rgb(20, 40, 82);
-    box-shadow: 0 14px 28px rgba(3, 1, 40, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow:  -3px -3px 8px 10px rgba(118, 117, 115, 0.129);
     color: azure;
-    width: 400px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-content: center;
     text-align: center;
 }
-
 .skill h3 {
     font-size: 35px;
     text-decoration: none;
