@@ -6,7 +6,7 @@ btnToggle.addEventListener('click', () => {
 })
 
  const swiper = new Swiper(".slide-content", {
-    slidesPerView: 1,
+    slidesPerView: 0.75,
     centeredSlides: false,
     grabCursor: true,
     keyboard: {
@@ -14,8 +14,8 @@ btnToggle.addEventListener('click', () => {
     },
     breakpoints: {
     769: {
-        slidesPerView: 1,
-        slidesPerGroup: 1,
+        slidesPerView: 3,
+        slidesPerGroup: 0.5,
     },
     },
     scrollbar: {
